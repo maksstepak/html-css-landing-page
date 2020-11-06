@@ -34,7 +34,33 @@
     </header>
 
     <main class="main">
-      <section class="main__section"></section>
+      <section class="main__section">
+        <article class="hero">
+          <figure class="hero__figure">
+            <picture>
+              <source
+                media="(min-width: 768px)"
+                srcset="img/hero-desktop.png"
+              />
+              <img
+                src="img/hero-mobile.png"
+                alt="Lorem ipsum"
+                class="hero__image"
+              />
+            </picture>
+          </figure>
+          <div class="hero__content">
+            <h1 class="hero__header">Lorem ipsum</h1>
+            <p class="hero__text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Recusandae ducimus deserunt id aperiam, odit magni rerum eveniet
+              et quas tenetur laudantium adipisci totam a veniam deleniti unde
+              molestias esse tempora!
+            </p>
+            <a href="#" class="button">Get started</a>
+          </div>
+        </article>
+      </section>
 
       <section id="features" class="main__section"></section>
 
