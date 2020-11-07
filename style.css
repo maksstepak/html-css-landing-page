@@ -141,6 +141,38 @@ body {
   }
 }
 
+.features {
+  font-size: 0.9rem;
+}
+
+.features__box {
+  text-align: center;
+  padding: 1em 1em;
+}
+
+.features__header {
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
+.features__text {
+  padding-top: 0.5em;
+}
+
+@media (min-width: 768px) {
+  .features {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    max-width: 992px;
+    margin: 0 auto;
+  }
+
+  .features__box {
+    flex: 1;
+  }
+}
+
 .footer {
   margin-top: auto;
   background: #3a0ca3;
