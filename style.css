@@ -18,6 +18,7 @@ body {
 }
 
 .header {
+  font-size: 1rem;
   background: #3a0ca3;
   color: #fff;
   display: flex;
@@ -73,6 +74,7 @@ body {
 }
 
 .main {
+  font-size: 1rem;
   padding: 0 1em;
 }
 
@@ -88,6 +90,7 @@ body {
 }
 
 .button {
+  font-size: 0.8rem;
   text-decoration: none;
   cursor: pointer;
   padding: 1em 1em;
@@ -103,7 +106,12 @@ body {
   background: #f72585;
 }
 
+.button--large {
+  font-size: 1rem;
+}
+
 .hero {
+  font-size: 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -174,10 +182,10 @@ body {
 }
 
 .footer {
+  font-size: 0.8rem;
   margin-top: auto;
   background: #3a0ca3;
   color: #fff;
-  font-size: 0.8rem;
 }
 
 .footer__text {
