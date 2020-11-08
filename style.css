@@ -91,9 +91,11 @@ body {
 
 .button {
   font-size: 0.8rem;
+  border: 0;
+  font-family: inherit;
   text-decoration: none;
   cursor: pointer;
-  padding: 1em 1em;
+  padding: 0.5em 1em;
   background: #7209b7;
   color: #fff;
   text-transform: uppercase;
@@ -103,7 +105,7 @@ body {
 }
 
 .button:hover {
-  background: #f72585;
+  background: #4361ee;
 }
 
 .button--large {
@@ -112,6 +114,10 @@ body {
 
 .button--rounded {
   border-radius: 2em;
+}
+
+.button--pink {
+  background: #f72585;
 }
 
 .hero {
@@ -227,6 +233,39 @@ body {
     max-width: 992px;
     margin: 0 auto;
   }
+}
+
+.contact {
+  font-size: 0.9rem;
+  max-width: 768px;
+  margin: 0 auto;
+  border: solid 3px #4361ee;
+  border-radius: 0.2em;
+  background: #3a0ca3;
+  color: #fff;
+  padding: 1em 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact__header {
+  font-size: 1.5em;
+  font-weight: 700;
+  padding: 0.4em;
+}
+
+.contact__label {
+  font-weight: 700;
+}
+
+.contact__input {
+  font-family: inherit;
+  width: 100%;
+  padding: 0.3em;
+  border: solid 3px #4cc9f0;
+  border-radius: 0.5em;
+  margin: 0.8em;
 }
 
 .footer {

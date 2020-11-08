@@ -128,7 +128,39 @@
         </div>
       </section>
 
-      <section id="contact" class="main__section"></section>
+      <section id="contact" class="main__section">
+        <form action="#" method="POST" class="contact">
+          <h2 class="contact__header">Contact us</h2>
+          <label for="name" class="contact__label">Name</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Please enter your name"
+            required
+            class="contact__input"
+          />
+          <label for="email" class="contact__label">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Please enter your email address"
+            required
+            class="contact__input"
+          />
+          <label for="message" class="contact__label">Message</label>
+          <textarea
+            name="message"
+            id="message"
+            rows="3"
+            placeholder="Please enter your message"
+            required
+            class="contact__input"
+          ></textarea>
+          <button type="submit" class="button button--pink">Submit</button>
+        </form>
+      </section>
     </main>
 
     <footer class="footer">
